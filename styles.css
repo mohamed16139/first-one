@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#count {
+    font-size: 24px;
+    margin: 0 20px;
+}
